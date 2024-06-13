@@ -227,7 +227,7 @@ num_heads = 4
 num_layers = 2
 
 # define the GCN model
-class PeptideNe(torch.nn.Module):
+class PeptideNet(torch.nn.Module):
     def __init__(self):
         # Initialization
         super().__init__()
