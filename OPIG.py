@@ -187,7 +187,7 @@ class YooChooseBinaryDataset(InMemoryDataset):
         pass
 
     def process(self):
-        df = pd.read_csv('./esol/raw/delaney-processed.csv', header=None)
+        df = pd.read_csv('./delaney-processed.csv', header=None)
         smiles = df[9].tolist()
         del smiles[0]
         print(smiles)
@@ -227,7 +227,7 @@ num_heads = 4
 num_layers = 2
 
 # define the GCN model
-class ESOLNet(torch.nn.Module):
+class PeptideNe(torch.nn.Module):
     def __init__(self):
         # Initialization
         super().__init__()
@@ -282,7 +282,7 @@ class ESOLNet(torch.nn.Module):
                 print(f"Epoch {epoch}, Loss: {epoch_loss}")
         return losses
 
-model = ESOLNet()
+model = PeptideNet()
 print(model)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = model.to(device)
