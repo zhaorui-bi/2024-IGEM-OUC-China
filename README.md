@@ -2,7 +2,7 @@
 
 ![Poster](/fig/poster.png "Magic Gardens")
 
-## WIKI Link
+## Wiki Link
 
 https://2024.igem.wiki/ouc-china/
 
