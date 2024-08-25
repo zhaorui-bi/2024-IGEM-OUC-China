@@ -1,4 +1,4 @@
-# 2024 OUC-iGEM
+# 2024 IGEM-OUC-China
 
 ## Team Leader
 
