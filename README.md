@@ -4,7 +4,7 @@
 
 ## Wiki Link
 
-https://2024.igem.wiki/ouc-china/
+https://2024.igem.wiki/ouc-china
 
 ## Team Leader
 
