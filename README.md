@@ -2,6 +2,10 @@
 
 ![Poster](/fig/poster.png "Magic Gardens")
 
+## WIKI Link
+
+https://2024.igem.wiki/ouc-china/
+
 ## Team Leader
 
 Zhaorui Jiang, Guanghao Cui, Shaohui Liu
